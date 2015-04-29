@@ -1,0 +1,209 @@
+body {
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: Verdana, Geneva, sans-serif
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.panel {
+  margin: 10px;
+  border: 1px solid #aaaaaa;
+}
+
+.net-list, .set-list {
+  width: 150px;
+  height: 600px;
+  float: left;
+  overflow: scroll;
+}
+
+.net-panel, .set-panel, .testset-panel {
+  padding: 0 10px;
+  height: 600px;
+  float: left;
+  overflow: scroll;
+}
+
+.net-panel, .set-panel {
+  width: 1000px;
+}
+
+.testset-panel {
+  width: 960px;
+}
+
+.set-batches-panel, .set-chunk-panel {
+  padding: 0 10px;
+  width: 920px;
+  float: left;
+  overflow: scroll;
+}
+
+.set-batches-panel {
+  height: 240px;
+}
+
+.set-chunk-panel {
+  height: 180px;
+}
+
+.net-list-header, .set-list-header {
+  font-weight: bold;
+}
+
+div.navig-bar {
+  height: 2em;
+}
+
+.net-list li, .set-list li, .navig-bar li {
+  margin: 2px;
+  background: #dddddd;
+}
+
+.net-list li.selected, .set-list li.selected, .navig-bar li.selected {
+  background: #ddddff;
+}
+
+.net-list ul, .set-list ul, .navig-bar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navig-bar li {
+  float: left;
+  display: inline-block;
+}
+
+.net-list li, .set-list li {
+  display: block;
+}
+
+.net-list li, .set-list li, .navig-bar li {
+  margin: 2px;
+  background: #dddddd;
+}
+
+.net-list li:hover, .set-list li:hover, .navig-bar li:hover {
+  background: #eeeeee;
+}
+
+.net-list li.selected:hover, .set-list li.selected:hover,
+.navig-bar li.selected:hover {
+  background: #eeeeff;
+}
+
+.net-view {
+}
+
+.layer-view {
+  padding: 4px;
+}
+
+.neuron {
+  border: 1px solid black;
+  margin: 1px 3px;
+  display: inline-block;
+}
+
+.set-sample {
+  margin: 0px;
+  display: inline-block;
+}
+
+.misclassified {
+  background-color: #e21;
+}
+
+.set-smp-label {
+  font-size: 9pt;
+  display: block;
+  text-align: center;
+  margin: -4px 0px 4px 0px;
+}
+
+.tr-stats-view, .tr-state-view, .net-arch-view, .tr-param-view,
+.edit-arch-view, .edit-training-view {
+  padding: 0 10px;
+}
+
+.tr-param-view p {
+  line-height: 0.75em;
+}
+
+.tr-stats-view svg {
+  height: 300px;
+}
+
+.net-name-input {
+  margin: 10px auto;
+  display: block;
+  width: 150px;
+  font-size: 1.5em;
+}
+
+.edit-net-layer-elem {
+  vertical-align: top;
+}
+
+.edit-net-form-label {
+  display: inline-block;
+  width: 180px;
+}
+
+.edit-net-form-medium-label {
+  display: inline-block;
+  width: 140px;
+}
+
+.edit-net-form-short-label {
+  display: inline-block;
+  width: 60px;
+}
+
+.layer-type-input {
+  margin-right: 5px;
+  display: inline-block;
+  width: 140px;
+}
+
+.adaptive-lrate-params, .progressive-momentum-params {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.layer-unit-input, .lrate-epsilon-input,
+.lrate-minmaxg-input, .momentum-alpha-input,
+.momentum-startstep-input, .rprop-minmaxs-input,
+.rprop-minmaxs-input, .rmsprop-alpha-input,
+.regularization-lambda-input {
+  width: 40px;
+}
+
+.layer-unit-el-input {
+  width: 20px;
+}
+
+.layer-unit-post-label {
+  display: inline-block;
+  width: 80px;
+}
+
+.net-layer-margin {
+  display: inline-block;
+  width: 25px;
+  margin: 0 8px 0 2px;
+}
+
+.trset-batch-chunk {
+  display: inline-block;
+  width: 40px;
+  font-size: 9pt;
+  background-color: #1ae;
+  margin: 2px;
+}
+
+
